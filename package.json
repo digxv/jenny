@@ -1,0 +1,36 @@
+{
+  "name": "jenny-web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "nodemon server.js",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@geist-ui/react": "^2.2.0",
+    "@geist-ui/react-icons": "^1.0.1",
+    "@taquito/beacon-wallet": "^10.1.1",
+    "@taquito/signer": "^10.1.1",
+    "@taquito/taquito": "^10.1.1",
+    "@taquito/tzip12": "^10.1.2",
+    "@temple-wallet/dapp": "^5.0.2",
+    "global": "^4.4.0",
+    "inter-ui": "^3.19.3",
+    "next": "11.1.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-icons": "^4.2.0",
+    "saas": "^1.0.0",
+    "sass": "^1.43.2",
+    "socket.io": "^4.3.0"
+  },
+  "devDependencies": {
+    "@types/react": "17.0.20",
+    "eslint": "7.32.0",
+    "eslint-config-next": "11.1.2",
+    "nodemon": "^2.0.13",
+    "typescript": "4.4.3"
+  }
+}
